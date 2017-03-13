@@ -1,0 +1,43 @@
+!!!
+%html
+  %head
+    %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
+    %title JoeMarion.io
+
+    -# Favicon
+    = favicon_link_tag
+
+    -# Add viewport
+    %meta{:content => "width=device-width, initial-scale=1", :name => "viewport"}/
+
+    %meta{:name => "google-site-verification", :content => "B_VdUBGgLk8T3D4MHK0zdrqOVtkQxtzvomF-yaB8h3U"}/
+
+
+    -# Stylesheets
+
+    = stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true
+    = stylesheet_link_tag    'home', media: 'all', 'data-turbolinks-track' => true
+    = stylesheet_link_tag    'navbar', media: 'all', 'data-turbolinks-track' => true
+    = stylesheet_link_tag    'letters', media: 'all', 'data-turbolinks-track' => true
+    -# ------------------------------------------------------------------------------
+
+    = javascript_include_tag 'application', 'data-turbolinks-track' => true
+    = csrf_meta_tags
+
+    -# Typekit fonts
+    %script(src="https://use.typekit.net/olx8ugq.js")
+    :javascript
+      try{Typekit.load({ async: true });}catch(e){}
+
+    -# Font Awesome
+    %link{:href => "https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css", :rel => "stylesheet"}/
+
+  %body
+    .app-container
+      .navbar
+        = render 'layouts/navbar'
+      .body
+        = yield
+      .footer
+        = render 'layouts/footer'
+        = render 'layouts/analytics_footer'

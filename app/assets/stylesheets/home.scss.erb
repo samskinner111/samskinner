@@ -1,0 +1,90 @@
+@import "normalize-rails";
+@import "compass";
+@import "susy";
+@import "breakpoint";
+
+/* Susy global settings */
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  global-box-sizing: border-box
+);
+
+@include border-box-sizing;
+
+// -------------------------------------------
+
+.home {
+  .index-header {
+    @include span(12 last);
+    margin: 2em 0;
+    .header-image {
+      display: none;
+    }
+    #header-content {
+      color: black;
+      text-align: center;
+      h2 {
+        font-family: "adobe-garamond-pro";
+        font-size: 1.2rem;
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin: 20px auto;
+        padding: 1em 2em;
+      }
+      p {
+        display: block;
+        font-size: 2rem;
+        line-height: 1em;
+        text-transform: uppercase;
+        font-weight: 700;
+        font-style: normal;
+        padding: 2em 1em;
+      }
+      .header-buttons {
+        display: none;
+      }
+    }
+  }
+
+  .background-desc {
+    text-align: center;
+    @include span(12 last);
+    h1 {
+      @include span(12 last);
+      font-family: "adobe-garamond-pro";
+      font-size: 2rem;
+      line-height: 1.2em;
+      text-transform: none;
+      letter-spacing: 0px;
+      font-weight: 400;
+      font-style: normal;
+      padding: 1.3em 0 .5em 0;
+    }
+    p {
+      @include container(80%);
+      font-size: 1rem;
+      line-height: 1.8em;
+      letter-spacing: 0px;
+      font-weight: 400;
+      font-style: normal;
+      color: rgba(26,26,26,.6);
+      padding-bottom: 2em;
+    }
+  }
+
+  @include breakpoint(600px) {
+    .index-header {
+      @include span(12 last);
+      .header-image {
+        display: inline;
+        img {
+          @include span(12 last);
+          max-width: 75%;
+        }
+      }
+    }
+  }
+}

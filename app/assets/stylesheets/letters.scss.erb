@@ -1,0 +1,94 @@
+@import "normalize-rails";
+@import "compass";
+@import "susy";
+@import "breakpoint";
+
+/* Susy global settings */
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  global-box-sizing: border-box
+);
+
+@include border-box-sizing;
+
+// ----------------------------------------
+
+.letter {
+  @include container;
+  text-align: center;
+  p {
+    padding: 1em 0em;
+    text-align: left;
+    line-height: 1.4;
+    color: #677683;
+    font-style: italic;
+  }
+  .welcome {
+    @include span(12 last);
+    margin-top: 10em;
+    h1 {
+      @include span(12 last);
+    }
+    h2 {
+      @include span(12 last);
+      padding-top: 0em;
+      padding-bottom: 2em;
+    }
+  }
+  .talk-me {
+    @include span(12 last);
+    @include breakpoint(600px) { @include span(6);}
+    padding: 0 1.5em 0 3em;
+    h3 {
+      border-bottom: 1px solid #677683;
+      padding-bottom: 1em;
+    }
+  }
+  .talk-you {
+    @include span(12 last);
+    @include breakpoint(600px) { @include span(6 last);}
+    padding: 0 3em 0 1.5em;
+    h3 {
+      border-bottom: 1px solid #677683;
+      padding-bottom: 1em;
+    }
+  }
+  .closer {
+    @include span(12 last);
+    h2 {
+      padding-bottom: 0em;
+    }
+    .email {
+      text-align: center;
+      padding-bottom: 3em;
+    }
+  }
+}
+
+// Font color
+.wd-1 {
+  color: #CB1ED4;
+}
+.wd-2 {
+  color: #40B545;
+}
+.wd-3 {
+  color: #673AB7;
+}
+.wd-4 {
+  color: #CA0000;
+}
+.wd-5 {
+  color: #DE5C88;
+}
+.wd-6 {
+  color: #26BDBD;
+}
+.wd-7 {
+  color: #FF9800;
+}
+.wd-8 {
+  color: #4040FB;
+}

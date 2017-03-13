@@ -1,0 +1,78 @@
+@import "normalize-rails";
+@import "compass";
+@import "susy";
+@import "breakpoint";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  global-box-sizing: border-box
+);
+
+@include border-box-sizing;
+
+
+/* Navbar container */
+.navbar {
+  @include span(12 last);
+  margin-top: 1em;
+  color: #bbb;
+  clear:both;
+
+  /* Logo image in nav */
+  .logo-header {
+    @include span(12 last);
+    padding-bottom: .3em;
+    a {
+      @include span(8);
+    }
+    img {
+      height: 4em;
+    }
+  }
+
+  /* Navbar links */
+  .links {
+    .link {
+      @include span(12 last);
+      text-align: center;
+      padding: .3em 0;
+    }
+
+    a {
+      color: inherit;
+      text-transform: uppercase;
+      text-decoration: none;
+      letter-spacing: 2px;
+      font-weight: 400;
+      line-height: 1em;
+      font-size: .75rem;
+    }
+
+    a:hover {
+      color: #fff;
+    }
+  }
+
+
+
+  /* Breakpoints */
+  @include breakpoint(600px) {
+    .logo-header {
+      @include span(1.5 at 1);
+      a {
+        @include span(12 last);
+      }
+    }
+    .links {
+      @include span(8 last);
+      background-color: rgba(10, 10, 10, 0.5);
+      .link {
+        @include span(1 of 4 last);
+      }
+    }
+    .rule {
+      display: none;
+    }
+  }
+}

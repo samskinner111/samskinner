@@ -1,0 +1,4136 @@
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 8, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 18, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 31, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 50, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 61, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 70, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 79, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 92, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 102, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 115, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 125, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 134, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 143, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 152, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 202, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 210, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 222, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 234, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 243, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 257, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 269, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 278, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 288, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 299, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 310, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 322, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 333, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 346, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 359, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 368, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 378, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 388, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 397, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 406, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 416, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Susy global settings */
+/* line 21, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 19, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+.about .about-header {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  margin: 2em 0;
+}
+/* line 23, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+.about .about-header .header-image {
+  display: none;
+}
+/* line 27, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+.about .about-header #header-content {
+  color: black;
+  text-align: center;
+}
+/* line 30, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+.about .about-header #header-content h2 {
+  font-family: "adobe-garamond-pro";
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 20px auto;
+  padding-top: 3em;
+}
+/* line 42, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+.about .content-section {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+}
+/* line 44, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+.about .content-section .about-section {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.about .content-section .about-section:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 46, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+.about .content-section .about-section h1 {
+  text-align: center;
+  font-family: "adobe-garamond-pro";
+  font-size: 2.5rem;
+  line-height: 1.2em;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+}
+/* line 56, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+.about .content-section .about-section p {
+  font-size: 1rem;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(26, 26, 26, 0.6);
+  padding-bottom: 2em;
+}
+/* line 65, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+.about .content-section .about-section .profile-pic {
+  height: 120px;
+  width: 120px;
+  border-radius: 100px;
+  padding: 1em;
+}
+/* line 71, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+.about .content-section .about-section p#family-desc {
+  padding-bottom: 5em;
+}
+@media (min-width: 600px) {
+  /* line 78, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+  .about .about-header {
+    @inlude span(12 last);
+  }
+  /* line 80, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+  .about .about-header .header-image {
+    display: inline;
+  }
+  /* line 82, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+  .about .about-header .header-image img {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    max-width: 75%;
+    float: left;
+  }
+  /* line 89, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+  .about .about-header #header-content h2 {
+    padding-top: 6em;
+  }
+  /* line 95, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/about.scss.erb */
+  .about .about-section #family-img img {
+    float: left;
+    padding: 1em;
+  }
+}
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 8, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 18, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 31, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 50, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 61, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 70, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 79, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 92, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 102, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 115, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 125, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 134, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 143, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 152, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 202, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 210, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 222, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 234, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 243, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 257, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 269, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 278, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 288, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 299, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 310, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 322, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 333, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 346, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 359, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 368, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 378, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 388, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 397, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 406, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 416, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* line 21, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 14, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  background-color: #26262a;
+  color: rgba(255, 255, 255, 0.4);
+  height: 20em;
+  text-align: center;
+  clear: both;
+  /* Tag defaults */
+  /* Footer logo */
+  /* Footer navigation */
+  /* Social Icons */
+}
+/* line 28, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer a {
+  color: inherit;
+  text-decoration: none;
+}
+/* line 32, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer a:hover {
+  color: #fff;
+}
+/* line 35, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer li {
+  padding: 1em 1em;
+  display: inline;
+}
+/* line 41, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer .footer-image {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+}
+/* line 43, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer .footer-image img {
+  margin: 0 auto;
+  float: none;
+  margin: 2em 0 -3em 0;
+}
+/* line 51, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer .footer-links {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding: 7em 0 1em 0;
+}
+/* line 54, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer .footer-links li {
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 400;
+  line-height: 1.65;
+  text-transform: uppercase;
+  letter-spacing: .17rem;
+  transition: all .15s;
+  font-size: 1rem;
+  padding: 0 .8em;
+}
+/* line 63, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer .footer-links li p {
+  font-size: 1rem;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  padding-bottom: 3em;
+}
+/* line 74, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer .social-icons {
+  padding-top: 1em;
+}
+/* line 76, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer .social-icons li {
+  padding: 0 .25em;
+}
+/* line 78, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer .social-icons li i {
+  color: rgba(255, 255, 255, 0.7);
+}
+/* line 81, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/footer.scss.erb */
+.footer .social-icons li i:hover {
+  color: #fff;
+}
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 8, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 18, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 31, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 50, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 61, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 70, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 79, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 92, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 102, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 115, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 125, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 134, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 143, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 152, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 202, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 210, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 222, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 234, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 243, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 257, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 269, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 278, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 288, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 299, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 310, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 322, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 333, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 346, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 359, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 368, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 378, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 388, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 397, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 406, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 416, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Susy global settings */
+/* line 21, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 19, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+.home .index-header {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  margin: 2em 0;
+}
+/* line 22, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+.home .index-header .header-image {
+  display: none;
+}
+/* line 25, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+.home .index-header #header-content {
+  color: black;
+  text-align: center;
+}
+/* line 28, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+.home .index-header #header-content h2 {
+  font-family: "adobe-garamond-pro";
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 20px auto;
+  padding: 1em 2em;
+}
+/* line 37, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+.home .index-header #header-content p {
+  display: block;
+  font-size: 2rem;
+  line-height: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  padding: 2em 1em;
+}
+/* line 46, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+.home .index-header #header-content .header-buttons {
+  display: none;
+}
+/* line 52, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+.home .background-desc {
+  text-align: center;
+  width: 100%;
+  float: right;
+  margin-right: 0;
+}
+/* line 55, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+.home .background-desc h1 {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  font-family: "adobe-garamond-pro";
+  font-size: 2rem;
+  line-height: 1.2em;
+  text-transform: none;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1.3em 0 .5em 0;
+}
+/* line 66, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+.home .background-desc p {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  line-height: 1.8em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(26, 26, 26, 0.6);
+  padding-bottom: 2em;
+}
+/* line 12, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.home .background-desc p:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+@media (min-width: 600px) {
+  /* line 79, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+  .home .index-header {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 81, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+  .home .index-header .header-image {
+    display: inline;
+  }
+  /* line 83, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/home.scss.erb */
+  .home .index-header .header-image img {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    max-width: 75%;
+  }
+}
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 8, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 18, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 31, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 50, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 61, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 70, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 79, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 92, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 102, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 115, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 125, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 134, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 143, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 152, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 202, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 210, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 222, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 234, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 243, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 257, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 269, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 278, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 288, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 299, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 310, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 322, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 333, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 346, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 359, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 368, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 378, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 388, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 397, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 406, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 416, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Susy global settings */
+/* line 21, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 18, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+/* line 12, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.letter:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 21, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter p {
+  padding: 1em 0em;
+  text-align: left;
+  line-height: 1.4;
+  color: #677683;
+  font-style: italic;
+}
+/* line 28, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter .welcome {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  margin-top: 10em;
+}
+/* line 31, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter .welcome h1 {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+}
+/* line 34, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter .welcome h2 {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding-top: 0em;
+  padding-bottom: 2em;
+}
+/* line 40, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter .talk-me {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding: 0 1.5em 0 3em;
+}
+@media (min-width: 600px) {
+  /* line 40, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+  .letter .talk-me {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+/* line 44, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter .talk-me h3 {
+  border-bottom: 1px solid #677683;
+  padding-bottom: 1em;
+}
+/* line 49, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter .talk-you {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding: 0 3em 0 1.5em;
+}
+@media (min-width: 600px) {
+  /* line 49, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+  .letter .talk-you {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 53, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter .talk-you h3 {
+  border-bottom: 1px solid #677683;
+  padding-bottom: 1em;
+}
+/* line 58, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter .closer {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+}
+/* line 60, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter .closer h2 {
+  padding-bottom: 0em;
+}
+/* line 63, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.letter .closer .email {
+  text-align: center;
+  padding-bottom: 3em;
+}
+
+/* line 71, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.wd-1 {
+  color: #CB1ED4;
+}
+
+/* line 74, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.wd-2 {
+  color: #40B545;
+}
+
+/* line 77, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.wd-3 {
+  color: #673AB7;
+}
+
+/* line 80, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.wd-4 {
+  color: #CA0000;
+}
+
+/* line 83, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.wd-5 {
+  color: #DE5C88;
+}
+
+/* line 86, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.wd-6 {
+  color: #26BDBD;
+}
+
+/* line 89, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.wd-7 {
+  color: #FF9800;
+}
+
+/* line 92, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/letters.scss.erb */
+.wd-8 {
+  color: #4040FB;
+}
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 8, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 18, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 31, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 50, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 61, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 70, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 79, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 92, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 102, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 115, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 125, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 134, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 143, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 152, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 202, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 210, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 222, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 234, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 243, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 257, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 269, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 278, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 288, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 299, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 310, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 322, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 333, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 346, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 359, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 368, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 378, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 388, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 397, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 406, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 416, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* line 21, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* Navbar container */
+/* line 16, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+.navbar {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  margin-top: 1em;
+  color: #bbb;
+  clear: both;
+  /* Logo image in nav */
+  /* Navbar links */
+  /* Breakpoints */
+}
+/* line 23, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+.navbar .logo-header {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding-bottom: .3em;
+}
+/* line 26, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+.navbar .logo-header a {
+  width: 57.62712%;
+  float: left;
+  margin-right: 1.69492%;
+}
+/* line 29, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+.navbar .logo-header img {
+  height: 4em;
+}
+/* line 36, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+.navbar .links .link {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  text-align: center;
+  padding: .3em 0;
+}
+/* line 42, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+.navbar .links a {
+  color: inherit;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-weight: 400;
+  line-height: 1em;
+  font-size: .75rem;
+}
+/* line 52, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+.navbar .links a:hover {
+  color: #fff;
+}
+@media (min-width: 600px) {
+  /* line 61, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+  .navbar .logo-header {
+    width: 11.01695%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  /* line 63, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+  .navbar .logo-header a {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 67, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+  .navbar .links {
+    width: 40.67797%;
+    float: right;
+    margin-right: 0;
+    background-color: rgba(10, 10, 10, 0.5);
+  }
+  /* line 70, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+  .navbar .links .link {
+    width: 28.57143%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 74, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/navbar.scss.erb */
+  .navbar .rule {
+    display: none;
+  }
+}
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 8, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 18, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 31, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 50, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 61, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 70, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 79, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 92, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 102, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 115, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 125, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 134, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 143, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 152, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 202, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 210, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 222, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 234, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 243, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 257, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 269, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 278, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 288, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 299, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 310, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 322, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 333, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 346, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 359, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 368, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 378, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 388, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 397, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 406, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 416, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Susy global settings */
+/* line 21, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 19, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .resume-header {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  margin: 2em 0;
+}
+/* line 22, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .resume-header .header-image {
+  display: none;
+}
+/* line 25, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .resume-header #header-content {
+  color: black;
+  text-align: center;
+}
+/* line 28, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .resume-header #header-content h2 {
+  font-family: "adobe-garamond-pro";
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 1px;
+  margin: 20px auto;
+  padding: 1em 2em;
+}
+/* line 40, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+}
+/* line 43, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .objective-statement {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+}
+/* line 45, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .objective-statement h2 {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  text-align: center;
+  font-family: "adobe-garamond-pro";
+  font-size: 2rem;
+  line-height: 1.2em;
+  letter-spacing: 0px;
+  font-weight: 400;
+  font-style: normal;
+  padding: 1.3em;
+}
+/* line 56, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .objective-statement p {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1rem;
+  line-height: 1.8em;
+  font-weight: 400;
+  font-style: normal;
+  color: rgba(26, 26, 26, 0.6);
+  padding-bottom: 5em;
+}
+/* line 12, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.resume .content-section .objective-statement p:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 68, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .dbc-container #dbc-pic {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  background-image: url(/assets/dev-bootcamp-cd593e894cc8b083cbd5a6b89c0e54adc6c744e33d9dc479402a59a21ec7f77f.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20.9em;
+}
+/* line 76, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .dbc-container #dbc-pic .img-header, .resume .content-section .dbc-container #dbc-pic .dbc-dates {
+  color: white;
+  text-align: center;
+}
+/* line 80, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .dbc-container #dbc-pic .img-header {
+  font-size: 2.75rem;
+  line-height: 1em;
+  padding-top: 3em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+}
+/* line 88, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .dbc-container #dbc-pic .dbc-dates {
+  margin-top: 2em;
+}
+/* line 93, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .dbc-container .dbc-desc {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding: 2.5em 0;
+}
+/* line 96, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .dbc-container .dbc-desc p {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 2em;
+}
+/* line 12, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.resume .content-section .dbc-container .dbc-desc p:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 104, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container #usaf-pic {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  background-image: url(/assets/US-Air-Force-07b37a63841c74a4cc05bf530f50d2cd7f146d25fba756e718d61082a1ca2e4f.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20.9em;
+}
+/* line 113, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .img-header, .resume .content-section .usaf-container .afdates {
+  color: white;
+  text-align: center;
+}
+/* line 117, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .img-header {
+  font-size: 2.75rem;
+  line-height: 1em;
+  padding-top: 3em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+}
+/* line 125, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .afdates {
+  margin-top: 2em;
+}
+/* line 129, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .jtac {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+}
+/* line 131, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .jtac #jtac-img {
+  display: none;
+}
+/* line 134, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .jtac .jtac-content {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding: 0 5em;
+  text-align: center;
+  margin-top: 2em;
+}
+/* line 139, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .jtac .jtac-content h3 {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  font-family: "adobe-garamond-pro";
+  font-size: 1.2rem;
+  padding-top: 1.4em;
+}
+/* line 145, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .jtac .jtac-content p {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  font-size: .8rem;
+  color: rgba(26, 26, 26, 0.5);
+}
+/* line 150, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .jtac .jtac-content ul {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding: 2em 0em;
+}
+/* line 154, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .jtac .jtac-content li {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding: .5em 0;
+}
+/* line 161, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .romad #romad-img {
+  display: none;
+}
+/* line 164, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .romad .romad-content {
+  max-width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  margin-top: 2em;
+}
+/* line 12, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.resume .content-section .usaf-container .romad .romad-content:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 168, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .romad .romad-content h3 {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  font-family: "adobe-garamond-pro";
+  font-size: 1.2rem;
+  padding-top: 1.4em;
+}
+/* line 174, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .romad .romad-content p {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  font-size: .8rem;
+  color: rgba(26, 26, 26, 0.5);
+}
+/* line 179, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .romad .romad-content ul {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding: 2em 0em;
+}
+/* line 183, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .usaf-container .romad .romad-content li {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding: .5em 0;
+}
+/* line 191, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .education #edu-header {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  background-image: url(/assets/resume-header-1fc16fdc563376e61d5e1e4986716c0bbe00ee3123a3d7132fe722ae949c2b3e.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20.9em;
+}
+/* line 199, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .education #edu-header .img-header {
+  text-align: center;
+  font-size: 2.75rem;
+  line-height: 1em;
+  padding-top: 3em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+/* line 211, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .education ul {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding: 5em;
+}
+/* line 215, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .education li {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  list-style: none;
+  padding: 1em 0;
+  font-size: 1.3rem;
+}
+/* line 224, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .training .training-header {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  background-image: url(/assets/training-certs-46d12a67e7e2e9af1f5353289fb09445574b251f45b6fe942c05673a25d868a6.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  height: 20.9em;
+}
+/* line 232, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .training .img-header {
+  text-align: center;
+  font-size: 2.25rem;
+  line-height: 1em;
+  padding-top: 4em;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+}
+/* line 242, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .training .cert-award {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  text-align: center;
+}
+/* line 245, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .training .cert-award h3 {
+  padding-top: 2em;
+}
+/* line 248, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .training .cert-award ul {
+  color: rgba(26, 26, 26, 0.5);
+}
+/* line 252, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .training .cert-award li {
+  padding: 0.5em 1em;
+  list-style-type: none;
+}
+/* line 257, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .training .cert-award .certs {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+}
+/* line 262, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+.resume .content-section .training .cert-award .awards {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding-bottom: 2em;
+}
+@media (min-width: 600px) {
+  /* line 275, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+  .resume .resume-header {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 277, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+  .resume .resume-header .header-image {
+    display: inline;
+  }
+  /* line 279, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+  .resume .resume-header .header-image img {
+    width: 100%;
+    float: right;
+    margin-right: 0;
+    max-width: 75%;
+  }
+  /* line 286, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+  .resume .certs {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  /* line 289, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+  .resume .awards {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+  /* line 292, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/resume.scss.erb */
+  .resume .rule {
+    display: none;
+  }
+}
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+
+
+ */
+/*! normalize.css v4.1.1 | MIT License | github.com/necolas/normalize.css */
+/**
+ * 1. Change the default font family in all browsers (opinionated).
+ * 2. Prevent adjustments of font size after orientation changes in IE and iOS.
+ */
+/* line 8, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+html {
+  font-family: sans-serif;
+  /* 1 */
+  -ms-text-size-adjust: 100%;
+  /* 2 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/**
+ * Remove the margin in all browsers (opinionated).
+ */
+/* line 18, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+body {
+  margin: 0;
+}
+
+/* HTML5 display definitions
+   ========================================================================== */
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+/* line 31, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+main,
+menu,
+nav,
+section,
+summary {
+  /* 1 */
+  display: block;
+}
+
+/**
+ * Add the correct display in IE 9-.
+ */
+/* line 50, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio,
+canvas,
+progress,
+video {
+  display: inline-block;
+}
+
+/**
+ * Add the correct display in iOS 4-7.
+ */
+/* line 61, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+audio:not([controls]) {
+  display: none;
+  height: 0;
+}
+
+/**
+ * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+ */
+/* line 70, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+progress {
+  vertical-align: baseline;
+}
+
+/**
+ * Add the correct display in IE 10-.
+ * 1. Add the correct display in IE.
+ */
+/* line 79, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+template,
+[hidden] {
+  display: none;
+}
+
+/* Links
+   ========================================================================== */
+/**
+ * 1. Remove the gray background on active links in IE 10.
+ * 2. Remove gaps in links underline in iOS 8+ and Safari 8+.
+ */
+/* line 92, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a {
+  background-color: transparent;
+  /* 1 */
+  -webkit-text-decoration-skip: objects;
+  /* 2 */
+}
+
+/**
+ * Remove the outline on focused links when they are also active or hovered
+ * in all browsers (opinionated).
+ */
+/* line 102, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+a:active,
+a:hover {
+  outline-width: 0;
+}
+
+/* Text-level semantics
+   ========================================================================== */
+/**
+ * 1. Remove the bottom border in Firefox 39-.
+ * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+ */
+/* line 115, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+ * Prevent the duplicate application of `bolder` by the next rule in Safari 6.
+ */
+/* line 125, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: inherit;
+}
+
+/**
+ * Add the correct font weight in Chrome, Edge, and Safari.
+ */
+/* line 134, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+ * Add the correct font style in Android 4.3-.
+ */
+/* line 143, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+dfn {
+  font-style: italic;
+}
+
+/**
+ * Correct the font size and margin on `h1` elements within `section` and
+ * `article` contexts in Chrome, Firefox, and Safari.
+ */
+/* line 152, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/**
+ * Add the correct background and color in IE 9-.
+ */
+/* line 161, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+mark {
+  background-color: #ff0;
+  color: #000;
+}
+
+/**
+ * Add the correct font size in all browsers.
+ */
+/* line 170, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+small {
+  font-size: 80%;
+}
+
+/**
+ * Prevent `sub` and `sup` elements from affecting the line height in
+ * all browsers.
+ */
+/* line 179, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+/* line 187, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sub {
+  bottom: -0.25em;
+}
+
+/* line 191, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+   ========================================================================== */
+/**
+ * Remove the border on images inside links in IE 10-.
+ */
+/* line 202, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+img {
+  border-style: none;
+}
+
+/**
+ * Hide the overflow in IE.
+ */
+/* line 210, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+svg:not(:root) {
+  overflow: hidden;
+}
+
+/* Grouping content
+   ========================================================================== */
+/**
+ * 1. Correct the inheritance and scaling of font size in all browsers.
+ * 2. Correct the odd `em` font sizing in all browsers.
+ */
+/* line 222, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+code,
+kbd,
+pre,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+ * Add the correct margin in IE 8.
+ */
+/* line 234, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+figure {
+  margin: 1em 40px;
+}
+
+/**
+ * 1. Add the correct box sizing in Firefox.
+ * 2. Show the overflow in Edge and IE.
+ */
+/* line 243, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/* Forms
+   ========================================================================== */
+/**
+ * 1. Change font properties to `inherit` in all browsers (opinionated).
+ * 2. Remove the margin in Firefox and Safari.
+ */
+/* line 257, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+ * Restore the font weight unset by the previous rule.
+ */
+/* line 269, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+optgroup {
+  font-weight: bold;
+}
+
+/**
+ * Show the overflow in IE.
+ * 1. Show the overflow in Edge.
+ */
+/* line 278, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+ * Remove the inheritance of text transform in Edge, Firefox, and IE.
+ * 1. Remove the inheritance of text transform in Firefox.
+ */
+/* line 288, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+ * 1. Prevent a WebKit bug where (2) destroys native `audio` and `video`
+ *    controls in Android 4.
+ * 2. Correct the inability to style clickable types in iOS and Safari.
+ */
+/* line 299, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button,
+html [type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+  /* 2 */
+}
+
+/**
+ * Remove the inner border and padding in Firefox.
+ */
+/* line 310, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+ * Restore the focus styles unset by the previous rule.
+ */
+/* line 322, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+ * Change the border, margin, and padding in all browsers (opinionated).
+ */
+/* line 333, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em;
+}
+
+/**
+ * 1. Correct the text wrapping in Edge and IE.
+ * 2. Correct the color inheritance from `fieldset` elements in IE.
+ * 3. Remove the padding so developers are not caught out when they zero out
+ *    `fieldset` elements in all browsers.
+ */
+/* line 346, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+ * Remove the default vertical scrollbar in IE.
+ */
+/* line 359, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+textarea {
+  overflow: auto;
+}
+
+/**
+ * 1. Add the correct box sizing in IE 10-.
+ * 2. Remove the padding in IE 10-.
+ */
+/* line 368, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+ * Correct the cursor style of increment and decrement buttons in Chrome.
+ */
+/* line 378, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+ * 1. Correct the odd appearance in Chrome and Safari.
+ * 2. Correct the outline style in Safari.
+ */
+/* line 388, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+ * Remove the inner padding and cancel buttons in Chrome and Safari on OS X.
+ */
+/* line 397, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+[type="search"]::-webkit-search-cancel-button,
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+ * Correct the text style of placeholders in Chrome, Edge, and Safari.
+ */
+/* line 406, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-input-placeholder {
+  color: inherit;
+  opacity: 0.54;
+}
+
+/**
+ * 1. Correct the inability to style clickable types in iOS and Safari.
+ * 2. Change font properties to `inherit` in Safari.
+ */
+/* line 416, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/normalize-rails-4.1.1/vendor/assets/stylesheets/normalize-rails/normalize.css */
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* line 21, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/language/susy/_box-sizing.scss */
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 31, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/application.scss.erb */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "proxima-nova";
+  font-size: 16px;
+}
+@media screen and (min-width: 900px) {
+  /* line 31, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/application.scss.erb */
+  * {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 31, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/application.scss.erb */
+  * {
+    font-size: 20px;
+  }
+}
+
+/* line 45, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/application.scss.erb */
+html, body {
+  height: 100%;
+}
+
+/* line 49, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/application.scss.erb */
+.app-container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  *zoom: 1;
+  min-height: 100%;
+  position: relative;
+}
+/* line 12, /Users/JoeMarion/.rbenv/versions/2.2.1/lib/ruby/gems/2.2.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.app-container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+
+/* line 56, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/application.scss.erb */
+img {
+  float: right;
+}
+
+/* line 60, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/application.scss.erb */
+.rule {
+  width: 100%;
+  float: right;
+  margin-right: 0;
+  padding-top: 1em;
+}
+/* line 63, /Users/JoeMarion/Post-DBC/joemarion.io/app/assets/stylesheets/application.scss.erb */
+.rule hr {
+  width: 80%;
+  margin: 0 auto;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  padding: 0;
+}

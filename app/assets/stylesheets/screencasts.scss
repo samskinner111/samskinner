@@ -1,0 +1,31 @@
+.screencast-container {
+  h1 {
+    padding-left: 2em;
+    margin-top: 3em;
+  }
+
+  .first-screencast {
+    .title {
+      text-align: center;
+    }
+  }
+  .embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px;
+    height: 0;
+    overflow: hidden;
+    width: 100%;
+    height: auto;
+    margin-bottom: 5em;
+  }
+
+  .embed-container iframe,
+  .embed-container object,
+  .embed-container embed {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%;
+    height: 100%;
+  }
+}

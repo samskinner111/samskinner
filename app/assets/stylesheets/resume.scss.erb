@@ -1,0 +1,296 @@
+@import "normalize-rails";
+@import "compass";
+@import "susy";
+@import "breakpoint";
+
+/* Susy global settings */
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  global-box-sizing: border-box
+);
+
+@include border-box-sizing;
+
+// -------------------------------------------
+
+.resume {
+  .resume-header {
+    @include span(12 last);
+    margin: 2em 0;
+    .header-image {
+      display: none;
+    }
+    #header-content {
+      color: black;
+      text-align: center;
+      h2 {
+        font-family: "adobe-garamond-pro";
+        font-size: 1.2rem;
+        font-style: italic;
+        font-weight: 400;
+        letter-spacing: 1px;
+        margin: 20px auto;
+        padding: 1em 2em;
+      }
+    }
+  }
+
+  .content-section {
+      @include span(12 last);
+
+      .objective-statement {
+        @include span(12 last);
+        h2 {
+          @include span(12 last);
+          text-align: center;
+          font-family: "adobe-garamond-pro";
+          font-size: 2rem;
+          line-height: 1.2em;
+          letter-spacing: 0px;
+          font-weight: 400;
+          font-style: normal;
+          padding: 1.3em;
+        }
+        p {
+          @include container(80%);
+          font-size: 1rem;
+          line-height: 1.8em;
+          font-weight: 400;
+          font-style: normal;
+          color: rgba(26,26,26,.6);
+          padding-bottom: 5em;
+        }
+      }
+
+      .dbc-container {
+        #dbc-pic {
+          @include span(12 last);
+          background-image: url(<%= asset_path 'dev-bootcamp.jpg' %>);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          height: 20.9em;
+
+          .img-header, .dbc-dates {
+            color: white;
+            text-align: center;
+          }
+          .img-header {
+            font-size: 2.75rem;
+            line-height: 1em;
+            padding-top: 3em;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-style: normal;
+          }
+          .dbc-dates {
+            margin-top: 2em;
+          }
+        }
+
+        .dbc-desc {
+          @include span(12 last);
+          padding: 2.5em 0;
+          p {
+            @include container(80%);
+            padding: 2em;
+          }
+        }
+      }
+
+      .usaf-container {
+        #usaf-pic {
+          @include span(12 last);
+          background-image: url(<%= asset_path 'US-Air-Force.jpg' %>);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          height: 20.9em;
+        }
+
+        .img-header, .afdates {
+          color: white;
+          text-align: center;
+        }
+        .img-header {
+          font-size: 2.75rem;
+          line-height: 1em;
+          padding-top: 3em;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-style: normal;
+        }
+        .afdates {
+          margin-top: 2em;
+        }
+
+        .jtac {
+          @include span(12 last);
+          #jtac-img {
+            display: none;
+          }
+          .jtac-content {
+            @include span(12 last);
+            padding: 0 5em;
+            text-align: center;
+            margin-top: 2em;
+            h3 {
+              @include span(12 last);
+              font-family: "adobe-garamond-pro";
+              font-size: 1.2rem;
+              padding-top: 1.4em;
+            }
+            p {
+              @include span(12 last);
+              font-size: .8rem;
+              color: rgba(26,26,26,.5);
+            }
+            ul {
+              @include span(12 last);
+              padding: 2em 0em;
+            }
+            li {
+              @include span(12 last);
+              padding: .5em 0;
+            }
+          }
+        }
+        .romad {
+          #romad-img {
+            display: none;
+          }
+          .romad-content {
+            @include container(80%);
+            text-align: center;
+            margin-top: 2em;
+            h3 {
+              @include span(12 last);
+              font-family: "adobe-garamond-pro";
+              font-size: 1.2rem;
+              padding-top: 1.4em;
+            }
+            p {
+              @include span(12 last);
+              font-size: .8rem;
+              color: rgba(26,26,26,.5);
+            }
+            ul {
+              @include span(12 last);
+              padding: 2em 0em;
+            }
+            li {
+              @include span(12 last);
+              padding: .5em 0;
+            }
+          }
+        }
+      }
+      .education {
+        #edu-header {
+          @include span(12 last);
+          background-image: url(<%= asset_path 'resume-header.jpeg' %>);
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          height: 20.9em;
+
+          .img-header {
+            text-align: center;
+            font-size: 2.75rem;
+            line-height: 1em;
+            padding-top: 3em;
+            text-transform: uppercase;
+            font-weight: 700;
+            font-style: normal;
+            color: white;
+          }
+        }
+
+        ul {
+          @include span(12 last);
+          padding: 5em;
+        }
+        li {
+          @include span(12 last);
+          list-style: none;
+          padding: 1em 0;
+          font-size: 1.3rem;
+        }
+      }
+
+      .training {
+        .training-header {
+          @include span(12 last);
+          background-image: url(<%= asset_path 'training-certs.jpg' %> );
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: center center;
+          height: 20.9em;
+        }
+        .img-header {
+          text-align: center;
+          font-size: 2.25rem;
+          line-height: 1em;
+          padding-top: 4em;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+        }
+        .cert-award {
+          @include span(12 last);
+          text-align: center;
+          h3 {
+            padding-top: 2em;
+          }
+          ul {
+            color: rgba(26,26,26,.5);
+          }
+
+          li {
+            padding: 0.5em 1em;
+            list-style-type: none;
+          }
+
+          .certs {
+            @include span(12 last);
+
+          }
+
+          .awards {
+            @include span(12 last);
+            padding-bottom: 2em;
+          }
+
+        }
+      }
+    }
+
+
+
+
+  @include breakpoint(600px) {
+    .resume-header {
+      @include span(12 last);
+      .header-image {
+        display: inline;
+        img {
+          @include span(12 last);
+          max-width: 75%;
+        }
+      }
+    }
+
+    .certs {
+      @include span(6);
+    }
+    .awards {
+      @include span(6 last);
+    }
+    .rule {
+      display: none;
+    }
+  }
+}

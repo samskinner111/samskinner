@@ -1,0 +1,31 @@
+.footer-image
+  = image_tag('JM-logo-web.png')
+%ul.footer-links
+  %li
+    = link_to "Home", root_path
+  %li
+    = link_to "About", about_path
+  %li
+    = link_to "Resume", resume_path
+
+%p
+  &copy; Joe Marion. All rights reserved. Front-End Rails Developer
+%ul.social-icons
+  %li
+    %a{:href => "http://www.github.com/JoeMarion", :target => "_blank"}
+      %i.fa.fa-github-alt
+  %li
+    %a{:href => "http://www.twitter.com/joezmar", :target => "_blank"}
+      %i.fa.fa-twitter
+  %li
+    %a{:href => "https://www.linkedin.com/in/joseph-marion-95a0129b", :target => "_blank"}
+      %i.fa.fa-linkedin
+  %li
+    %a{:href => "https://www.instagram.com/joezmarion/", :target => "_blank"}
+      %i.fa.fa-instagram
+  %li
+    %a{:href => "https://www.facebook.com/JoeyMarion", :target => "_blank"}
+      %i.fa.fa-facebook-official
+  %li
+    %a{:href => "mailto:JoeMarion.io@gmail.com", :target => "_blank"}
+      %i.fa.fa-envelope
