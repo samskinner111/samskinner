@@ -1,4 +1,4 @@
-# JoeMarion.io
+# swskinner.com
 
 This is the source code for my personal site. It is still in the process of being refactored and responsive design is still being implemented. I created this site before I really had a lot of web development experience and am starting to make the necessary changes in accordance with the modern web.
 
