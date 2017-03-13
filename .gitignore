@@ -11,6 +11,8 @@
 /log/*
 !/log/.keep
 /tmp
+/my-private-key.pem
+/csr.pem
 
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
