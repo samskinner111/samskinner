@@ -66,9 +66,9 @@ $susy: (
 
       .dbc-container {
         #dbc-pic {
-          @include span(12 last);
-          background-image: url(<%= asset_path 'dev-bootcamp.jpg' %>);
-          background-size: cover;
+          @include span(10 center);
+          background-image: url(<%= asset_path 'nasonia.jpg' %>);
+          background-size: 80%;
           background-repeat: no-repeat;
           background-position: center center;
           height: 20.9em;
@@ -239,6 +239,9 @@ $susy: (
           font-style: normal;
           color: white;
         }
+        .training-dates {
+            margin-top: 2em;
+          }
         .cert-award {
           @include span(12 last);
           text-align: center;
