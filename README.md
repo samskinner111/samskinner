@@ -14,7 +14,7 @@ This is the source code for my personal site. It is still in the process of bein
 
 ## Credits
 
-Creator: Joe Marion
+Inspired by: Joe Marion
 
 ## License
 
