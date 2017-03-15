@@ -25,9 +25,31 @@ $susy: (
     color: #677683;
     font-style: italic;
   }
+  .letter-header {
+    @include span(12);
+    .header-image {
+      display: inline;
+      img {
+        @include span(12 last);
+        max-width: cover;
+        float: left;
+        padding-top: 20px;
+        padding-left: 65px;
+        padding-right: 65px;
+      }
+    }
+    .photo-credit {
+      p {
+        text-align: left;
+        font-weight: 400;
+        font-size: 0.5rem;
+        padding-left: 65px;
+      }
+    }
+  } 
   .welcome {
     @include span(12 last);
-    margin-top: 10em;
+    margin-top: 2em;
     h1 {
       @include span(12 last);
     }
