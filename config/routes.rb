@@ -5,7 +5,7 @@ Rails.application.routes.draw do
   get 'resume'                  => 'pages#resume'
   get 'screencasts'             => 'screencasts#index'
 
-  get 'cover-letter'            => 'letters#general'
+  get 'cover-letter'            => 'letters#generic'
   get 'want-to-be-bitovian'     => 'letters#bitovi'
   get 'work-for-airstoc'        => 'letters#airstoc'
 
