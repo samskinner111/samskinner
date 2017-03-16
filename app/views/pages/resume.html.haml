@@ -8,84 +8,103 @@
       %hr/
   .content-section
     .objective-statement
-      %h2 Objective Statement
+      %h2 Objective
       %p
         Seeking a permanent, full-time, position with a dynamic team-oriented company.  Full Stack.  Eager to learn new technologies and deepen my experience with current ones.  Prefer to work on location.
-    .dbc-container
-      #dbc-pic
-        %h2.img-header Academia / Research
-        %p.dbc-dates 1980-1996
-      .dbc-desc
-        %p
-          19-week intensive program that focuses on Ruby, JavaScript, Ruby on Rails, common JavaScript libraries, SQL, HTML and CSS, as well as pair programming, agile and test driven development.
-        %p
-          The program focused on team skills like communication, empathy and effective feedback.
-    .usaf-container
-      #usaf-pic
-        %h2.img-header United States Air Force
-        %p.afdates 2010-2015
-      .jtac
-        = image_tag('woven_kruskals.png')
-        .jtac-content
-          %h3 Joint Terminal Attack Controller
-          %p Fort Drum, New York (2012 - 2015)
-          %p Khost Province, Afghanistan (2013 - 2014)
-          %ul
-            %li
-              Developed an iOS application in Objective-C while deployed to Afghanistan, after the career field identified a need for a mobile certification study tool.
-            %li
-              Senior Air Force Leader in charge of main defensive force for a highly active province of Afghanistan.
-            %li
-              De-confliction authority for over $100 million worth of fixed-wing aircraft.
+    .summary-container
+      %h2 Summary
+      .ul
+        %p &#8226; 2-plus years experience in application development using Ruby on Rails, MySQL & Postgres,  Bootstrap & Foundation, Javascript, JQuery, CSS3, HTML5 & haml. 
+        %p  &#8226; Proficient with git, github & bitbucket as well as the IDE Sublime Text 3.
+        %p &#8226; Good Unix skills.
+        %p &#8226; Extensive experience with Model-View-Controller (MVC) and RESTful architectures.
+        %p &#8226; Moderate experience using ActiveRecord and raw SQL statements with relational databases (MySQL, Postgres) and with Postgres database administration.
+        %p &#8226; Skilled at working directly with clients, including prospecting, vetting, collecting project requirements, app design and cost estimation, negotiating and setting client expectations.  
+        %p &#8226; Strong communication, problem-solving, and planning skills, with ability to work independently or in a team environment.  Prefer teams.
+        %p &#8226; Very experienced with statistical analyses, moderately skilled with R and RStudio.
+
+    .projects-container
+      #projects-pic
+        %h2.img-header Projects for Review
+        %h3 (most recent first)
+      %a{href: "http://anovaanalytics.com/index.php", target: "new"} Anova Analytics
+      %p Solo project, a Joomla website
+      %a{href: "http://mreeves85.wixsite.com/redwood37", target: "new"} Team Solutions
+      %p Joint project, Rails 4.2.4, 85% back-end, me, 60% front, me, currently in beta
+      %a{href: "http://jobs.techtalentsouth.com", target: "new"} Tech Talent South
+      %p Solo project, a Rails 4.2 website
+      %a{href: "https://github.com/samskinnerphd/euler_solutions", target: "new"} Project Euler
+      %p Solo project, uses Ruby to solve Project Euler math challenges
+
+    .professional-container
+      %h2 Professional Experience
+      #company <strong>CodeRiver Software, LLC., Atlanta</strong> – <em>A Web Development Agency</em>
+      %p Software Engineer
+      #dates SEPTEMBER 2016 – PRESENT
+      %p &nbsp;&nbsp; — &nbsp; Freelance Ruby on Rails projects for three separate companies including both front- and back-end work. Front-end: D3.js, Foundation, JQuery, CSS & HTML.  Back-end: both Mysql and Postgres.
+      %br
+      #company <strong>CodeGuard Inc., Atlanta</strong> – <em>Website Backups in the Cloud</em>
+      %p Software Engineer
+      #dates MARCH 2016 – AUGUST 2016
+      %p &nbsp;&nbsp; — &nbsp; Helped develop and maintain the CodeGuard Ruby on Rails application. 
+      %p &nbsp;&nbsp; — &nbsp; Worked in a VirtualBox and vagrant environment.
+      %p &nbsp;&nbsp; — &nbsp; Added new feature for Bulk Import of csv files containing data to SFTP or SSH into client websites.
+      %p &nbsp;&nbsp; — &nbsp; Front-end development using JQuery, CSS, HTML and haml to create new data pages, add fields and improve layouts to various forms, and install a phone number syntax verification system for national and international phone numbers.
+      %p &nbsp;&nbsp; — &nbsp; Spearheaded an evaluation of competitor’s website backup systems including speed testing, UX design, evaluation of ease of use, etc.
+      %p &nbsp;&nbsp; — &nbsp; Monitored status of cron jobs on AWS (EC2, S3, CloudWatch).  On-call 24/7 via PagerDuty every five weeks.  Accessed log files for troubleshooting.
+      %p &nbsp;&nbsp; — &nbsp; Provided L2 customer service. Specifically I assisted customers with problems using SFTP, SSH or direct MYSQL to configure their sites for daily backups.  Troubleshoot connection problems.
+      %br
+      #company <strong>Rietta Inc., Atlanta</strong> – <em>A Web Development Agency</em>
+      %p Rails Developer / Account Manager & Business Development 
+      #dates JANUARY 2015 – MARCH 2016
+      %p &nbsp;&nbsp; — &nbsp; Developed and maintained Ruby on Rails applications for multiple clients.  
+      %p &nbsp;&nbsp; — &nbsp; Upgraded & refactored legacy applications to utilize newer versions of Ruby and Rails.
+      %p &nbsp;&nbsp; — &nbsp; Spearheaded a redesign of main company website (atlantarubydevelopers.com) using JQuery for slideshow and CSS for better layouts.
+      %p &nbsp;&nbsp; — &nbsp; Rewrote most content of same for better focus and branding.
+      %p &nbsp;&nbsp; — &nbsp; Interacted directly with prospects and clients to identify, prioritize and implement features.  
+      %p &nbsp;&nbsp; — &nbsp; Sourced new business.  
+      %p &nbsp;&nbsp; — &nbsp; Managed team workflow using PivotalTracker.
+      %p &nbsp;&nbsp; — &nbsp; Developed a set of forms to standardize the vetting process for prospects and facilitate the capture of requirements for new clients.
+      %br
+      #company <strong>Tech Talent South, Atlanta</strong> – <em>Code Immersion School</em>
+      %p Instructor/Developer
+      #dates SEPTEMBER 2014 – MARCH 2015
+      %p &nbsp;&nbsp; — &nbsp; Taught introductory courses on web development using Ruby on Rails, SQLite and Bootstrap.  
+      %p &nbsp;&nbsp; — &nbsp; Solely responsible for developing a jobs portal for TTS alumni (jobs.techtalentsouth.com) using Ruby on Rails 4.2 and a Postgres database with multiple tables.
+      %p &nbsp;&nbsp; — &nbsp; Set up original hosting on Heroku (both dev and production versions).  
+      %p &nbsp;&nbsp; — &nbsp; Created an email verification system to vet new signups as TTS alumni.
+      %br
+      #company <strong>OneSouce Brokers Inc., Atlanta</strong> – <em>A Health Insurance Agency</em>
+      %p Founder, Owner, CEO
+      #dates 1996 – JUNE 2014
+      %p &nbsp;&nbsp; — &nbsp; Developed original marketing strategies.
+      %p &nbsp;&nbsp; — &nbsp; Inventor of cost-risk analysis to inform health insurance purchases, now widely used in the industry.
+      %p &nbsp;&nbsp; — &nbsp; Broker of health insurance and employee benefits.
+      %br
+      #company <strong>Indiana & Emory Universities</strong>
+      %p Assistant Professor of Biology
+      #dates 1985 – 1996
+      %p &nbsp;&nbsp; — &nbsp; Research professor in evolution and behavior, population genetics.
+      %p &nbsp;&nbsp; — &nbsp; Author of 16 scientific papers, including multiple publications in Science and Nature.
+      %p &nbsp;&nbsp; — &nbsp; Public Speaker with over 50 invited lectures, both national and international.
+      %p &nbsp;&nbsp; — &nbsp; Taught courses in Behavior, Ecology, Evolution, Genetics, Population Genetics and the Evolution of Learning.
+
+
+
+
+
+
+
       .rule
         %hr/
-      .romad
-        .romad-content
-          %h3 Radio Operator Maintainer & Driver
-          %p Fort Drum, New York (2011 - 2013)
-          %ul
-            %li
-              Developed a work related application that is considered the standard study material for a career field of over 4,000 people in order to be certified combat-mission ready.
-            %li
-              Built an efficient materiel-control program that oversaw over $300 million worth of equipment and cut down inventory time by 95%.
-            %li
-              Orchestrated annual team building multi-day event that effectively certifies 40-60 people per year.
-        = image_tag('romad.jpg', id: 'romad-img')
-      %div{style:"clear: both;"}
-
-    .education
-      #edu-header
+    .education-container
+      #education-pic
         %h2.img-header Education
       %ul
-        %li
-          Dev Bootcamp Graduate, San Francisco, CA - 2016
-        %li
-          Associates, Information and Systems Technology, Community College of the Air Force - 2015
-    .training
-      .training-header
-        %h2.img-header
-          Training - Awards
-        %p.training-dates 2014-2016
-      .cert-award
-        .certs
-          %h3 Recent Training
-          %ul
-            %li
-              Predictive Analytics using R (10 weeks, 60 hrs), Atlanta, GA - 2016
-            %li
-              Code Immersion BootCamp: Ruby on Rails (8 weeks), Atlanta, GA - 2014
-        .rule
-          %hr/
-        .awards
-          %h3 Awards
-          %ul
-            %li
-              Air Force Commendation Award – Fort Drum, NY 2015
-            %li
-              Army Commendation Award – Fort Drum, NY 2014
-            %li
-              Afghanistan Campaign Medal – Long Term – Fort Drum, NY 2014
-            %li
-              Army Achievement Medal – Fort Drum, NY 2012 and 2014
-        %div{style:"clear:both;"}
+        %li Anova Analytics – Predictive Analytics using R and RStudio, 60 hour course, Fall 2016
+        %li Tech Talent South – Ruby on Rails Web Development, Summer 2014.
+        %li University of Utah – Ph.D. in Biology, 1983.
+        %li University of Washington – B. A. in Biology, 1978.
+
+    %div{style:"clear:both;"}
 
