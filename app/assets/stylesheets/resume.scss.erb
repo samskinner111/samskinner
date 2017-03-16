@@ -50,7 +50,7 @@ $susy: (
         letter-spacing: 0px;
         font-weight: 400;
         font-style: normal;
-        padding: 1.3em;
+        padding: 1em;
       }
       p {
         @include container(80%);
@@ -59,7 +59,7 @@ $susy: (
         font-weight: 400;
         font-style: normal;
         color: rgba(26,26,26,.6);
-        padding-bottom: 2em;
+        padding-bottom: 1.5em;
       }
     }
     .summary-container {
@@ -73,7 +73,7 @@ $susy: (
         letter-spacing: 0px;
         font-weight: 400;
         font-style: normal;
-        padding: 1.3em;
+        padding: 1em;
       }        
       p {
         @include container(80%);
@@ -81,33 +81,47 @@ $susy: (
         font-weight: 400;
         font-style: normal;
         color: rgba(26,26,26,.6);
-        padding-bottom: 2em;
+        padding-bottom: 1em;
       }
     }
     .projects-container {
       #projects-pic {
-        @include span(12 center);
+        @include span(12 last);
         background-image: url(<%= asset_path 'woven_kruskals.png' %>);
         background-size: 90%;
         background-repeat: no-repeat;
         background-position: center center;
         height: 10.9em;
+        #haze {
+          @include span(6 wide of 12);
+          padding-top: 0px;
+          background: rgba(180,200,200,0.6);
+          border-radius: 60px;
+          width: 500px;
+          height: 90px;
+        }
         .img-header {
-          @include span(12 last);
+          @include span(5 wide of 12);
           text-align: center;
           text-transform: uppercase;
           font-family: "adobe-garamond-pro";
           font-size: 2rem;
+          line-height: 1em;
+          letter-spacing: 0px;
+          font-weight: 600;
+          font-style: normal;
+        }
+        .img-subheader {
+          @include span(2 wide of 12);
+          text-align: center;
+          font-family: "adobe-garamond-pro";
+          font-size: 1rem;
           line-height: 1.2em;
           letter-spacing: 0px;
-          font-weight: 400;
+          font-weight: 600;
           font-style: normal;
-          padding-top: 1.3em;
         }
-        h3 {
-          text-align: center;
-        }
-      }  
+      }
       p {
         @include container(80%);
         text-align: center;
@@ -206,12 +220,9 @@ $susy: (
           @include span(12 last);
           max-width: 75%;
           padding-right: 65px;
+          height: 20.9em;
         }
       }
-    }
-
-    .rule {
-      display: none;
     }
   } 
 } 
