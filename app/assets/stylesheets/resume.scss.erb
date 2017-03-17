@@ -39,6 +39,7 @@ $susy: (
 
   .content-section {
     @include span(12 last);
+
     .objective-statement {
       @include span(12 last);
       h2 {
@@ -62,6 +63,7 @@ $susy: (
         padding-bottom: 1.5em;
       }
     }
+
     .summary-container {
       @include span(12 last);
       h2 {
@@ -84,6 +86,7 @@ $susy: (
         padding-bottom: 1em;
       }
     }
+
     .projects-container {
       #projects-pic {
         @include span(12 last);
@@ -93,26 +96,25 @@ $susy: (
         background-position: center center;
         height: 10.9em;
         #haze {
-          @include span(6 wide of 12);
+          @include container(50%);
+          margin-top: 55px;
           padding-top: 0px;
           background: rgba(180,200,200,0.6);
           border-radius: 60px;
-          width: 500px;
-          height: 90px;
+          width: 410px;
+          height: 80px;
         }
         .img-header {
-          @include span(5 wide of 12);
           text-align: center;
-          text-transform: uppercase;
           font-family: "adobe-garamond-pro";
           font-size: 2rem;
-          line-height: 1em;
+          line-height: 1.3em;
           letter-spacing: 0px;
           font-weight: 600;
           font-style: normal;
         }
         .img-subheader {
-          @include span(2 wide of 12);
+          @include container(50%);
           text-align: center;
           font-family: "adobe-garamond-pro";
           font-size: 1rem;
@@ -141,8 +143,26 @@ $susy: (
         padding-bottom: 2em;
       }     
     }
+
     .professional-container {
       @include span(12 last);
+      #professional-pic {
+        @include span(12 last);
+        background-image: url(<%= asset_path 'base-jumping.png' %>);
+        background-size: 90%;
+        background-repeat: no-repeat;
+        background-position: center center;
+        height: 10.9em;
+        .img-header {
+          text-align: center;
+          font-size: 2.75rem;
+          line-height: 1em;
+          padding-top: 1em;
+          font-weight: 700;
+          font-style: normal;
+          color: white;
+        }
+      }
       h2 {
         @include span(12 last);
         text-align: center;
@@ -178,21 +198,20 @@ $susy: (
         padding-bottom: 0.2em;
       }
     }
+
     .education-container {
       #education-pic {
         @include span(12 last);
         background-image: url(<%= asset_path 'resume-header.jpeg' %>);
-        background-size: cover;
+        background-size: 90%;
         background-repeat: no-repeat;
         background-position: center center;
-        height: 20.9em;
-
+        height: 10.9em;
         .img-header {
           text-align: center;
           font-size: 2.75rem;
           line-height: 1em;
-          padding-top: 3em;
-          text-transform: uppercase;
+          padding-top: 1.2em;
           font-weight: 700;
           font-style: normal;
           color: white;
@@ -200,13 +219,14 @@ $susy: (
       }
       ul {
         @include span(12 last);
-        padding: 5em;
+        padding: 3em;
       }
       li {
-        @include span(12 last);
+        @include container(90%);
         list-style: none;
-        padding: 1em 0;
-        font-size: 1.3rem;
+        padding: 0.2em 0;
+        font-size: 1rem;
+        font-weight: 400;
       }
     }
   }
