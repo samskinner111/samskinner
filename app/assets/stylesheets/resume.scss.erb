@@ -16,8 +16,8 @@ $susy: (
 // -------------------------------------------
 
 .resume {
-  .resume-header {
-    @include span(12 last);
+  @include span(12 last);
+  .resume-header { 
     margin: 2em 0;
     .header-image {
       display: none;
@@ -32,18 +32,15 @@ $susy: (
         font-weight: 400;
         letter-spacing: 1px;
         margin: 20px auto;
-        padding: 1em 2em;
+        padding: 1em 2em 16em 2em;
       }
     }
   } 
 
   .content-section {
-    @include span(12 last);
-
-    .objective-statement {
+    .objective-container {
       @include span(12 last);
       h2 {
-        @include span(12 last);
         text-align: center;
         font-family: "adobe-garamond-pro";
         font-size: 2rem;
@@ -51,23 +48,20 @@ $susy: (
         letter-spacing: 0px;
         font-weight: 400;
         font-style: normal;
-        padding: 1em;
       }
       p {
         @include container(80%);
         font-size: 1rem;
-        line-height: 1.8em;
         font-weight: 400;
         font-style: normal;
+        line-height: 1.8em;
         color: rgba(26,26,26,.6);
-        padding-bottom: 1.5em;
+        padding-bottom: 1.6em;
       }
     }
 
     .summary-container {
-      @include span(12 last);
       h2 {
-        @include span(12 last);
         text-align: center;
         font-family: "adobe-garamond-pro";
         font-size: 2rem;
@@ -75,30 +69,53 @@ $susy: (
         letter-spacing: 0px;
         font-weight: 400;
         font-style: normal;
-        padding: 1em;
-      }        
+        padding: 0.8em;
+      }
+      #indent0 {
+        @include container(80%);
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: normal;
+        color: rgba(26,26,26,.6);
+      }
+      #indent1 {
+        @include container(50%);
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: normal;
+        color: rgba(26,26,26,.6);
+      }
+      #indent2 {
+        @include container(50%);
+        font-size: 1rem;
+        font-weight: 400;
+        font-style: normal;
+        color: rgba(26,26,26,.6);
+        padding-bottom: 1.4em;
+      }
       p {
         @include container(80%);
         font-size: 1rem;
         font-weight: 400;
         font-style: normal;
         color: rgba(26,26,26,.6);
-        padding-bottom: 1em;
+        padding-bottom: 1.4em;
       }
     }
 
     .projects-container {
       #projects-pic {
-        @include span(12 last);
         background-image: url(<%= asset_path 'woven_kruskals.png' %>);
         background-size: 90%;
         background-repeat: no-repeat;
         background-position: center center;
         height: 10.9em;
+        margin-top: 55px;
+        #spacing {
+          line-height: 2.4em;
+        }
         #haze {
           @include container(50%);
-          margin-top: 55px;
-          padding-top: 0px;
           background: rgba(180,200,200,0.6);
           border-radius: 60px;
           width: 410px;
@@ -145,7 +162,6 @@ $susy: (
     }
 
     .professional-container {
-      @include span(12 last);
       #professional-pic {
         @include span(12 last);
         background-image: url(<%= asset_path 'base-jumping.png' %>);
@@ -163,8 +179,14 @@ $susy: (
           color: white;
         }
       }
+      .photo-credit {
+        text-align: left;
+        font-weight: 400;
+        font-size: 0.5rem;
+        padding-left: 60px;
+        margin-bottom: 2.9em;
+      }
       h2 {
-        @include span(12 last);
         text-align: center;
         font-family: "adobe-garamond-pro";
         font-size: 2rem;
@@ -172,7 +194,6 @@ $susy: (
         letter-spacing: 0px;
         font-weight: 400;
         font-style: normal;
-        padding: 1.3em;
       }        
       p {
         @include container(80%);
@@ -201,7 +222,6 @@ $susy: (
 
     .education-container {
       #education-pic {
-        @include span(12 last);
         background-image: url(<%= asset_path 'resume-header.jpeg' %>);
         background-size: 90%;
         background-repeat: no-repeat;
@@ -218,15 +238,15 @@ $susy: (
         }
       }
       ul {
-        @include span(12 last);
         padding: 3em;
       }
       li {
         @include container(90%);
         list-style: none;
-        padding: 0.2em 0;
+        padding: 0.2em;
         font-size: 1rem;
         font-weight: 400;
+        color: rgba(26,26,26,.6);
       }
     }
   }
