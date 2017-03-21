@@ -4,4 +4,6 @@ Rails.application.config.assets.version = '1.0'
 # Stylesheets
 Rails.application.config.assets.precompile += ['navbar.scss', 'home.scss', 'letters.scss']
 
-Rails.application.config.assets.precompile += %w[index-header.jpeg about-header.jpeg personal-picture.png family-pic.jpg  resume-header.jpeg JTAC.jpg romad.jpg]
+Rails.application.config.assets.precompile += %w[about-header.jpg base-jumping.png education.jpeg
+  my-girls.png nasonia.jpg personal-picture.png polychaete.jpg resume-header.jpeg 
+  tree-base.jpg woven-kruskals.png]
