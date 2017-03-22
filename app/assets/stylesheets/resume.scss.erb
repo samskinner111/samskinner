@@ -108,8 +108,8 @@ $susy: (
         background-repeat: no-repeat;
         background-position: center center;
         height: 10.9em;
-        margin-top: 45px;
-        margin-bottom: 30px;
+        margin-top: 1.8em;
+        margin-bottom: 1.1em;
         #spacing {
           line-height: 2.4em;
         }
@@ -140,29 +140,33 @@ $susy: (
           font-style: normal;
         }
       }
-      a {
-        @include container(80%);
-        margin-left: 520px;
-        font-weight: 400;
-        font-style: normal;
-        color: rgba(0, 0, 198,.6);
+      table {
+        @include span(12 last);
+        padding-top: 1.2em;
+        tbody {
+          line-height: 1.8em;
+          tr {
+            font-weight: 400;
+            font-style: normal;
+            .first-column {
+              @include span(3 of 12);
+              color: rgba(0, 0, 198,.6);
+              padding-left: 10%;
+            }     
+            .second-column {
+              @include span(9 last);
+              text-align: left;
+              font-size: 1rem;
+              color: rgba(26,26,26,.6);
+            }
+          }
+        }
       }
-        .first {
-          padding-top: 6em;
-        }      
-      p {
-        @include container(80%);
-        text-align: center;
-        font-size: 1rem;
-        font-weight: 400;
-        font-style: normal;
-        color: rgba(26,26,26,.6);
-        padding-bottom: 2em;
-      } 
       #spacing2 {
-        line-height: 2.3em;
+        line-height: 2.7em;
         color: white;
-      }     
+      }
+    clear: both;       
     }
 
     .professional-container {
@@ -222,6 +226,7 @@ $susy: (
         color: rgba(26,26,26,.6);
         padding-bottom: 0.2em;
       }
+      clear: both;
     }
 
     .education-container {
@@ -247,7 +252,7 @@ $susy: (
       li {
         @include container(90%);
         list-style: none;
-        padding: 0.2em;
+        line-height: 1.4em;
         font-size: 1rem;
         font-weight: 400;
         color: rgba(26,26,26,.6);
