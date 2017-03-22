@@ -16,10 +16,9 @@ $susy: (
 // -------------------------------------------
 
 .about {
+  @include container(90%);
   .about-header {
-    @include span(12 last);
     margin: 2em 0;
-
     .header-image {
       display: none;
     }
@@ -77,9 +76,6 @@ $susy: (
       p#family-desc {
         padding-bottom: 3em;
       }
-      .rule {
-        padding-bottom: 1.5em;
-      }
     }
   }
 
@@ -92,7 +88,7 @@ $susy: (
           @include span(12 last);
           max-width: 75%;
           float: left;
-          padding-left: 25px;
+          padding-left: 3%;
         }
       }
       #header-content {
