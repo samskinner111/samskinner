@@ -16,40 +16,35 @@ $susy: (
 // -------------------------------------------
 
 .home {
-  .index-header {
-    @include span(12 last);
-    margin: 2em 0;
-    .header-image {
-      display: none;
+  @include container(90%);
+  .header-image {
+  }
+  #header-content {
+    color: black;
+    text-align: center;
+    h2 {
+      font-family: "adobe-garamond-pro";
+      font-size: 1.2rem;
+      font-style: italic;
+      font-weight: 400;
+      letter-spacing: 1px;
+      margin: 20px auto;
+      padding: 1em 2em;
     }
-    #header-content {
-      color: black;
-      text-align: center;
-      h2 {
-        font-family: "adobe-garamond-pro";
-        font-size: 1.2rem;
-        font-style: italic;
-        font-weight: 400;
-        letter-spacing: 1px;
-        margin: 20px auto;
-        padding: 1em 2em;
-      }
-      p {
-        display: block;
-        font-size: 2rem;
-        line-height: 1em;
-        text-transform: uppercase;
-        font-weight: 700;
-        font-style: normal;
-        padding: 2em 1em;
-      }
-      .header-buttons {
-        display: none;
-      }
+    p {
+      display: block;
+      font-size: 2rem;
+      line-height: 1em;
+      text-transform: uppercase;
+      font-weight: 700;
+      font-style: normal;
+      padding: 2em 1em;
     }
   }
-
-  .background-desc {
+  .rule {
+    padding-top: 5em;
+  }
+  .overview {
     text-align: center;
     @include span(12 last);
     h1 {
@@ -61,7 +56,7 @@ $susy: (
       letter-spacing: 0px;
       font-weight: 400;
       font-style: normal;
-      padding: 0.85em 0 .5em 0;
+      padding-top: 0.65em;
     }
     p {
       @include container(80%);
@@ -76,16 +71,12 @@ $susy: (
   }
 
   @include breakpoint(600px) {
-    .index-header {
-      @include span(12 last);
-      .header-image {
-        display: inline;
-        img {
-          @include span(12 last);
-          max-width: 75%;
-          padding-right: 40px;
-          padding-bottom: 20px;
-        }
+    .header-image {
+      display: inline;
+      img {
+        @include span(12 last);
+        max-width: 75%;
+        padding-left: 3%;
       }
     }
   }
