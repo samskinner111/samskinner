@@ -11,27 +11,18 @@ $susy: (
 
 @include border-box-sizing;
 
-
 /* Navbar container */
 .navbar {
-  @include span(12 last);
+  @include container;
   margin-top: 1em;
   color: #bbb;
   clear:both;
-
-  /* Logo image in nav */
-  .logo-header {
-    @include span(12 last);
+  .logo {
     padding-bottom: .3em;
-    a {
-      @include span(8);
-    }
     img {
       height: 2.5em;
     }
   }
-
-  /* Navbar links */
   .links {
     .link {
       @include container(50%);
@@ -54,19 +45,14 @@ $susy: (
     }
   }
 
-
-
   /* Breakpoints */
   @include breakpoint(600px) {
-    .logo-header {
+    .logo {
       @include span(1.5 at 1);
-      a {
-        @include span(12 last);
-      }
     }
     .links {
       @include span(8 last);
-      background-color: rgba(10, 10, 10, 0.5);
+      background: linear-gradient(to left, rgba(10, 10, 10, 0.9), rgba(10, 10, 10, 0.3));
       .link {
         @include span(1 of 4 last);
       }
