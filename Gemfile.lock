@@ -40,7 +40,7 @@ GEM
     arel (6.0.3)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    breakpoint (2.7.0)
+    breakpoint (2.7.1)
       sass (~> 3.3)
       sassy-maps (< 1.0.0)
     builder (3.2.2)
@@ -119,7 +119,7 @@ GEM
       mini_portile2 (~> 2.1.0)
     normalize-rails (4.1.1)
     pg (0.19.0)
-    puma (3.6.0)
+    puma (3.8.2)
     rack (1.6.4)
     rack-test (0.6.3)
       rack (>= 1.0)
@@ -206,7 +206,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  breakpoint
+  breakpoint (~> 2.7.1)
   byebug
   capybara
   compass-rails
@@ -218,7 +218,7 @@ DEPENDENCIES
   jquery-rails
   normalize-rails
   pg (~> 0.15)
-  puma
+  puma (~> 3.8.2)
   rails (= 4.2.5)
   rails_12factor (= 0.0.2)
   sass-rails (~> 5.0)
@@ -230,4 +230,4 @@ DEPENDENCIES
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.12.5
+   1.14.4
