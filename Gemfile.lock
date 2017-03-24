@@ -206,7 +206,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  breakpoint (~> 2.7.1)
+  breakpoint (>= 2.7.1)
   byebug
   capybara
   compass-rails
@@ -218,7 +218,7 @@ DEPENDENCIES
   jquery-rails
   normalize-rails
   pg (~> 0.15)
-  puma (~> 3.8.2)
+  puma (>= 3.8.2)
   rails (= 4.2.5)
   rails_12factor (= 0.0.2)
   sass-rails (~> 5.0)
@@ -226,8 +226,8 @@ DEPENDENCIES
   spring
   susy
   turbolinks
-  uglifier (>= 1.3.0)
+  uglifier (>= 3.0)
   web-console (~> 2.0)
 
 BUNDLED WITH
-   1.14.4
+   1.14.6
