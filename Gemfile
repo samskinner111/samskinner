@@ -4,9 +4,9 @@ gem 'rails', '4.2.5'
 gem 'pg', '~> 0.15'
 gem 'sass-rails', '~> 5.0'
 gem 'susy'
-gem 'breakpoint', "~> 2.7.1"
+gem 'breakpoint', ">= 2.7.1"
 gem 'compass-rails'
-gem 'uglifier', '>= 1.3.0'
+gem 'uglifier', '>= 3.0'
 gem 'jquery-rails'
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
@@ -31,6 +31,6 @@ group :development do
 end
 
 group :production do
-  gem 'puma', '~> 3.8.2'
+  gem 'puma', '>= 3.8.2'
   gem 'rails_12factor', '0.0.2'
 end
