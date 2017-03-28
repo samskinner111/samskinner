@@ -14,7 +14,11 @@ $susy: (
 @include border-box-sizing;
 
 // -------------------------------------------
-
+h2 {
+  font-family: "adobe-garamond-pro";
+  font-weight: 400;
+  text-align: center;
+}
 .resume {
   @include container(90%);
   .resume-header { 
@@ -24,32 +28,25 @@ $susy: (
     }
     #header-content {
       color: black;
-      text-align: center;
-      h2 {
-        font-family: "adobe-garamond-pro";
+      h2 {       
         font-size: 1.2rem;
         font-style: italic;
-        font-weight: 400;
         letter-spacing: 1px;
         margin: 20px auto;
         padding: 1em 2em 16em 2em;
       }
     }
   } 
-
   .content-section {
     @include span(12 last);
+    h2 {
+      font-size: 2rem;
+      font-style: normal;
+      line-height: 1.2em;
+      letter-spacing: 0px;
+      padding-bottom: 0.8em;
+    }
     .objective-container {
-      h2 {
-        text-align: center;
-        font-family: "adobe-garamond-pro";
-        font-size: 2rem;
-        line-height: 1.2em;
-        letter-spacing: 0px;
-        font-weight: 400;
-        font-style: normal;
-        padding-bottom: 0.8em;
-      }
       p {
         @include container(80%);
         font-size: 1rem;
@@ -62,16 +59,6 @@ $susy: (
     }
 
     .summary-container {
-      h2 {
-        text-align: center;
-        font-family: "adobe-garamond-pro";
-        font-size: 2rem;
-        line-height: 1.2em;
-        letter-spacing: 0px;
-        font-weight: 400;
-        font-style: normal;
-        padding-bottom: 0.8em;
-      }
       #indent0 {
         @include container(80%);
         font-size: 1rem;
@@ -193,16 +180,7 @@ $susy: (
         font-size: 0.5rem;
         padding-left: 62px;
         margin-bottom: 3em;
-      }
-      h2 {
-        text-align: center;
-        font-family: "adobe-garamond-pro";
-        font-size: 2rem;
-        line-height: 1.2em;
-        letter-spacing: 0px;
-        font-weight: 400;
-        font-style: normal;
-      }        
+      }       
       p {
         @include container(80%);
         font-size: 1rem;
