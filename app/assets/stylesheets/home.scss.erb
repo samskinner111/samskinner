@@ -17,6 +17,14 @@ $susy: (
 
 .home {
   @include container(90%);
+  text-align: center;
+  p {
+    padding: 1em 0em;
+    text-align: left;
+    line-height: 1.4;
+    color: #677683;
+    font-style: italic;
+  }
   .header-image {
   }
   #header-content {
@@ -70,6 +78,38 @@ $susy: (
       font-weight: bold;
     }
   }
+  .talk-me {
+    @include span(12 last);
+    @include breakpoint(600px) { @include span(6);}
+    padding: 0 1.5em 0 3em;
+    h3 {
+      border-bottom: 1px solid #677683;
+      padding-bottom: 1em;
+    }
+
+  }
+  .talk-you {
+    @include span(12 last);
+    @include breakpoint(600px) { @include span(6 last);}
+    padding: 0 3em 0 1.5em;
+    h3 {
+      border-bottom: 1px solid #677683;
+      padding-bottom: 1em;
+    }
+    p { padding-bottom: 0.85em; }
+  }
+  .closer {
+    @include span(12 last);
+    h2 {
+      font-weight: 700;
+      font-size: 1.5rem;
+      padding-bottom: 0em;
+    }
+    .email {
+      text-align: center;
+      padding-bottom: 3em;
+    }
+  }
 
   @include breakpoint(600px) {
     .header-image {
@@ -81,4 +121,14 @@ $susy: (
       }
     }
   }
+}
+
+// Font colors
+.wd-1 {
+  color: #CA0000;
+  font-weight: 600;
+}
+.wd-2 {
+  color: royalblue;
+  font-weight: 600;
 }
